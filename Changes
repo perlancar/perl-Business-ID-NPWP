@@ -1,5 +1,13 @@
 Revision history for Business-ID-NPWP
 
+0.04    2013-09-09 (SHARYANTO)
+
+        [INCOMPATIBLE CHANGES]
+
+        - Remove old interface (validate_npwp + OO interface) with new
+          Rinci-based parse_npwp().
+
+
 0.03    2010-02-26 (SHARYANTO)
 
         - Generate META.yml (using Dist::Zilla)

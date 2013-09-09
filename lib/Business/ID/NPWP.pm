@@ -4,8 +4,6 @@ use 5.010001;
 use warnings;
 use strict;
 
-use DateTime;
-
 require Exporter;
 our @ISA = qw(Exporter);
 our @EXPORT = qw(parse_npwp);
