@@ -1,11 +1,15 @@
 Revision history for Business-ID-NPWP
 
-0.03    2020-02-26
-        Generate META.yml (using Dist::Zilla)
+0.03    2010-02-26 (SHARYANTO)
 
-0.02    2009-10-07
-        Implement check digit checking
+        - Generate META.yml (using Dist::Zilla)
 
-0.01    2009-10-06
-        First version, released on an unsuspecting world.
 
+0.02    2009-10-07 (SHARYANTO)
+
+        - Implement check digit checking
+
+
+0.01    2009-10-06 (SHARYANTO)
+
+        - First version, released on an unsuspecting world.
