@@ -1,5 +1,8 @@
 package Business::ID::NPWP;
 
+# DATE
+# VERSION
+
 use 5.010001;
 use warnings;
 use strict;
@@ -7,8 +10,6 @@ use strict;
 require Exporter;
 our @ISA = qw(Exporter);
 our @EXPORT = qw(parse_npwp);
-
-# VERSION
 
 our %SPEC;
 
@@ -67,7 +68,7 @@ sub parse_npwp {
 }
 
 1;
-# ABSTRACT: Validate Indonesian taxpayer registration number (NPWP)
+# ABSTRACT:
 
 =head1 SYNOPSIS
 
