@@ -7,9 +7,8 @@ use 5.010001;
 use warnings;
 use strict;
 
-require Exporter;
-our @ISA = qw(Exporter);
-our @EXPORT = qw(parse_npwp);
+use Exporter 'import';
+our @EXPORT_OK = qw(parse_npwp);
 
 our %SPEC;
 
